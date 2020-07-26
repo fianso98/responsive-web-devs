@@ -147,10 +147,13 @@ clear: both;
 /*---------------------LE CONTENU---------------------*/
 .contenu{
 	margin-bottom: 50px;
+  display: flex;
+  flex-direction: column-reverse;
 }
 /*---------------------LE CONTENU LIEN---------------------*/
 .contenu .liens{
 	width: 100%;
+  height: 100%;
 	background-color: white;
 	margin-top: 9px;
 
@@ -161,19 +164,27 @@ clear: both;
 }
 .contenu .liens ul {
 list-style: none;
+ display: flex;
+  flex-direction: column;
 padding-left: 15px;
 padding-right: 15px;
 }
 .contenu .liens ul li{
 margin-top: 15px;
 margin-bottom: 15px;
-display: inline;
-}
-						/*first-child use*/
-.contenu .liens ul li:first-child{
-	font-weight: bold;
 
 }
+.contenu .liens .lien-titre{
+   align-self: center;
+  font-weight: bold;
+}
+.contenu .liens .lien{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+						/*first-child use*/
+
 /*---------------------LE CONTENU DROITE---------------------*/
 .contenu .right-contenu{
 	width: 100%;
@@ -202,7 +213,8 @@ display: inline;
 	 display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  display: flex;
+  justify-content: center;
 	
 	
 }
@@ -218,46 +230,84 @@ display: inline;
 }
 /*---------------------LE CONTENU Forum---------------------*/
 .contenu .right-contenu .top-contenu .forum{
-	padding-left: 30px;
+  padding-left: 30px;
+  
+  display: flex;
+  flex-direction: column;
+  
+
 }
-.contenu .right-contenu .top-contenu .forum .col-25 {
-  float: left;
-  width: 30%;
+.contenu .right-contenu .top-contenu .forum .ligne{
+  display: flex;
+  flex-direction: column;
   margin-top: 6px; 
-  /*margin-right: -20px;*/
+  margin-bottom:  6px; 
+  margin-left:  2px;
+}
+
+.contenu .right-contenu .top-contenu .forum .col-25 {
+  
+  
+  margin-top: 6px; 
+  margin-bottom:  6px; 
 }
 
 .contenu .right-contenu .top-contenu .forum .col-75 {
-  float: left;
-  width: 70%;
+ 
+  
   margin-top: 6px;
+  margin-bottom:  6px; 
 }
 .contenu .right-contenu .top-contenu .forum .col-75 input[type="text"]{
-	width:200px;
+  width:200px;
+  height: 20px;
+ 
+  
+  
 }
 .contenu .right-contenu .top-contenu .forum .col-75 input[type="email"]{
-	width:200px;
+  width:200px;
+  height: 20px;
 }
 .contenu .right-contenu .top-contenu .forum .col-75 input[type="tel"]{
-	width:200px;
+ width:200px;
+  height: 20px;
 }
+.contenu .right-contenu .top-contenu .forum .col-75 input[type="radio"]{
+ width:10px;
+  height: 10px;
+}
+.contenu .right-contenu .top-contenu .forum  input[type="checkbox"]{
+width:10px;
+  height: 10px;
+}
+
+.contenu .right-contenu .top-contenu .forum .col-75  input[type="date"]{
+ width:200px;
+  height: 20px;
+}
+.contenu .right-contenu .top-contenu .forum input[type="submit"]{
+width:200px;
+  height: 20px;
+  align-self:center;
+}
+
 legend{
-	text-align: center;
+  text-align: center;
 }
 
 .contenu .right-contenu .top-contenu .forum .col-25 .right-col{
   width: 50%;
   margin-top: 6px;
-  float: left;
   
 }
 .contenu .right-contenu .top-contenu .forum .col-25 .left-col{
-	width: 50%;
+  width: 50%;
   margin-top: 6px;
-  float: left;
+  
 }
 .contenu .right-contenu .top-contenu .forum{
-	margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 /*---------------------LE CONTENU DROIT BOTTOM---------------------*/
@@ -268,44 +318,72 @@ legend{
 	margin-top: 15px;
 	overflow: auto;
 	background-color: white;
+   display: flex;
+  align-items: center;
+  flex-direction: column;
 }
-.contenu .right-contenu .bottom-contenu h5{
-	padding-left: 20px;
+.contenu .right-contenu .bottom-contenu .titre-bottom{
+  
+  
+}
+.contenu .right-contenu .bottom-contenu .bottom-ul{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
 }
 .contenu .right-contenu .bottom-contenu ul{
-	margin-top:  0;
-	margin-bottom: 40px;
-	list-style: none;
+  margin-top:  0;
+  margin-bottom: 40px;
+  margin-right: 2px;
+  margin-left:2px;
+  padding-bottom:4px; 
+  width: 100%;
+  list-style: none;
+  border: 2px solid black;
 }
 .contenu .right-contenu .bottom-contenu .dev-parisien{
-	width: 24%;
-	float: left;
+  display: flex;
+  justify-content: space-around;
+  
 }
 .contenu .right-contenu .bottom-contenu .dev-parisien-r{
-	float: right;
-	width: 24%
+  display: flex;
+  justify-content: space-around;
+}
+
+.contenu .right-contenu .bottom-contenu .tablaux{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
 }
 .contenu .right-contenu .bottom-contenu .tablaux h5{
-	color: blue;
-	padding-left: 30px;
-	font-size: 20px;
+  color: blue;
+  padding-left: 30px;
+  
+  align-self: center;
 }
 .contenu .right-contenu .bottom-contenu .tablaux table{
-	width: 35%;
-	padding-left: 30px;
+  width: 70%;
+  
+  padding-left: 30px;
+  align-self: center;
 
 }
 .contenu .right-contenu .bottom-contenu .tablaux table td{
-	text-align: center;
-	border-bottom: 2px dashed black; 
+  text-align: center;
+  border-bottom: 2px dashed black; 
+  padding: 8px;
 
 }
 .contenu .right-contenu .bottom-contenu .tablaux table th{
 text-align: center;
-	border-bottom: 2px dashed black; 
+  border-bottom: 2px dashed black; 
 }
 .contenu .right-contenu .bottom-contenu .tablaux  .tab2{
-	padding-bottom: 50px;
+
+  padding-bottom: 50px;
 }
 
 /*--------------------Footer---------------------*/
