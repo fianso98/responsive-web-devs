@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+<!-- videos  --> 
+<video  controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+<!-- audio  -->
+<audio autoplay="true" loop controls preload>
+	<source src="DD.mp3" type="audio/mpeg">
+
+</audio>
+<!-- forms  -->
+<form>
+	
+	<input type="email" name="email" placeholder="your email here">
+	<input type="color" name="favcol">
+	<input type="date" name="dates">
+	<input type="range" name="" min="50" max="60">
+	<input type="tel" name="">
+	<input list="ice-cream-flavors" name="">
+	<datalist id="ice-cream-flavors">
+    <option value="Chocolate">
+    <option value="Coconut">
+    <option value="Mint">
+    <option value="Strawberry">
+    <option value="Vanilla">
+</datalist>
+
+	<input type="submit" name="env">
+</form>
+<!-- output -->
+<form oninput="x.value=parseInt(a.value)-parseInt(b.value)">
+	<input type="range" id="a" value="50">
+	minus
+	<input type="number" id="b" name="">
+	<output name="x"></output>
+</form>
+
+</body>
+</html>

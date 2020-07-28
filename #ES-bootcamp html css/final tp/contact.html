@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>contact</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<script type="text/javascript">
+	function setVal(){
+		var x = document.getElementById("budget").value;
+		document.getElementById("ton-budget").value=x+" $";
+	}
+	</script>
+</head>
+<body>
+
+<div class="top-site">
+	<!-- *************titre site************* -->
+	<div class="top-site-titre">
+		<!-- *************grand titre************* -->
+		<div class="big-title">
+		<h1>Répertoire <span class="white-text">des dévloppeurs</span>
+		</h1>
+		</div>
+		<!-- *************petit titre************* -->
+		<div class="small-title">
+		<h4>Trouver un développeur <span class="white-text">Maintenant</span></h4>
+		</div>
+	</div>	
+	<!-- *************le menu************* -->
+	<div class="top-site-menu">
+		<nav>
+		<ul>
+			<li><a href="main.html">Page d'acceuil</a></li>
+			<li><a href="info.html">A propos</a></li>
+			<li><a href="dev.html">developpeurs</a></li>
+			<li><a href="#">Contacter-Nous</a></li>
+		</ul>
+		</nav>
+	</div>
+</div>
+	<!-- *************LE CONTENU************* -->
+<div class="contenu">
+		<div class="liens">
+			<ul>
+				<li>Les liens</li>
+				<li>SEO</li>
+				<li>PHP</li>
+				<li>developpers</li>
+				<li>Contacter nous</li>
+				<li>SEO</li>
+				<li>PHP</li>
+				<li>developpers</li>
+				<li>Contacter nous</li>
+			</ul>
+		</div>
+
+		<div class="right-contenu">
+			<div class="top-contenu">
+				<form class="forum">
+					<h3>Contacter Nous</h3>
+					<p>svp utiliser ce formulaire pour rentrer en contact avec nous</p>
+
+					<div class="col-25">
+						<label for="nom">Nom complet:</label>
+					</div>
+					<div class="col-75">
+						<input type="text" name="nom" placeholder="votre nom complet">
+					</div>	
+					<div class="col-25">	
+						<label for="email">email:</label>
+					</div>
+					<div class="col-75">
+						<input type="email" name="email" placeholder="votre email">
+					</div>	
+					<div class="col-25">	
+						<label for="num">num de telephone</label>
+					</div>
+					<div class="col-75">
+						<input type="tel" name="num" placeholder="votre Num tel">
+					</div>	
+						<!-- radio button-->
+					<div class="col-25">
+						<label for="horaires">les horaires préféré pour coup de file:</label>
+					</div>	
+					<div class="col-75">
+						<input type="radio" name="horaire" value="matin"><label for="horaire-matin">matin</label>
+						<input type="radio" name="horaire" value="apres-midi"><label for="horaire-apres-midi">apres matin</label>
+						<input type="radio" name="horaire" value="soir"><label for="horaire-soir">soir</label>
+					</div>
+					<div class="col-25">	
+						<label for="lieu">Lieu:</label>
+					</div>
+					<div class="col-75">
+						<input type="text" name="lieu" placeholder="Lieu">
+					</div>	
+					<!-- 2eme partie -->
+					<fieldset>
+						<legend>personalisation</legend>
+							<label for="budget">Budget : </label>
+						  <input type="range" min="1000" max="10000" value="5000" id="budget" name="budget" onchange="setVal(this.value)"">
+						  <input type="text" id="ton-budget" name="ton-budget">
+						  <br>
+						  <p>les services recherchés</p>
+						  <div class="col-25">
+								<div class="right-col">
+								<input type="checkbox" name="html" value="html">
+								<label for="html">html</label>
+								<br>
+								<input type="checkbox" name="php" value="php">
+								<label for="php">php</label>
+								<br>
+								<input type="checkbox" name="sap" value="sap">
+								<label for="sap">sap</label>
+								</div>
+								<div class="left-col">		
+								<input type="checkbox" name="java" value="java">
+								<label for="java">java</label>
+								<br>
+								<input type="checkbox" name="c++" value="c++">
+								<label for="c++">c++</label>
+								<br>
+								<input type="checkbox" name="design" value="design">
+								<label for="design">design</label>
+								</div>
+							</div>
+							<br style="clear:both">
+							<br>
+
+
+
+							<div class="col-25">	
+						<label for="site-web">site web actuel :</label>
+					</div>
+					<div class="col-75">
+						<input type="text" name="site-web" placeholder="site web">
+					</div>	
+
+					<div class="col-25">	
+						<label for="date-deb">date de debut :</label>
+					</div>
+					<div class="col-75">
+						<input type="date" name="date-deb" >
+					</div>	
+
+					<div class="col-25">	
+						<label for="couleur">couleur de la page principale:</label>
+					</div>
+					<div class="col-75">
+						<input type="color" name="couleur" >
+					</div>	
+
+					</fieldset>
+
+					<input type="submit" value="envoyer">
+
+				</form>
+				
+			</div>
+		
+
+	</div>
+</div>
+<br style="clear:both">
+<footer>
+
+	<p>Footer</p>
+
+</footer>
+<!--
+<div class="news-box">
+<div class="news">
+  <div class="news-item">Place your news text here.</div>
+  <div class="news-item">Vice mlkshk crucifix beard chillwave meditation hoodie asymmetrical Helvetica.</div>
+  <div class="news-item">Ugh PBR&B kale chips Echo Park.</div>
+  <div class="news-item">Gluten-free mumblecore chambray mixtape food truck. </div>
+  <div class="news-item">Authentic bitters seitan pug single-origin coffee whatever.</div>
+  <div class="news-item">Letterpress chambray brunch.</div>
+  <div class="news-item">Vice mlkshk crucifix beard chillwave meditation hoodie asymmetrical Helvetica.</div>
+  <div class="news-item">Ugh PBR&B kale chips Echo Park.</div>
+  <div class="news-item">Gluten-free mumblecore chambray mixtape food truck. </div>
+  <div class="news-item">Authentic bitters seitan pug single-origin coffee whatever.</div>
+</div>
+</div>
+-->
+
+</body>
+</html>

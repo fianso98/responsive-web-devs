@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>formulaire de contact</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+<h1>Le cahier des devloppeur</h1>
+<div class="formulaire">
+<h3>contacter-nous</h3>
+<p>svp, utiliser ce formulaire pour rentrer en contact avec nous</p>
+<form>
+<div class="col-25">
+	<label for="nom">Nom complet:</label>
+</div>
+<div class="col-75">
+	<input type="text" name="nom" placeholder="votre nom complet">
+</div>	
+<div class="col-25">	
+	<label for="email">email:</label>
+</div>
+<div class="col-75">
+	<input type="email" name="email" placeholder="votre email">
+</div>	
+<div class="col-25">	
+	<label for="num">num de telephone</label>
+</div>
+<div class="col-75">
+	<input type="tel" name="num" placeholder="votre Num tel">
+</div>	
+	<!-- radio button-->
+<div class="col-25">
+	<label for="horaires">les horaires préféré pour coup de file:</label>
+</div>	
+<div class="col-75">
+	<input type="radio" name="horaire" value="matin"><label for="horaire-matin">matin</label>
+	<input type="radio" name="horaire" value="apres-midi"><label for="horaire-apres-midi">apres matin</label>
+	<input type="radio" name="horaire" value="soir"><label for="horaire-soir">soir</label>
+</div>
+	<!--la suite-->
+<div class="col-25">	
+	<label for="budget">budget:</label>
+</div>	
+<div class="col-75">
+	<select name="budget" >
+		<option selected disabled>--chosir un--</option>
+		<option>1000$</option>
+		<option>3000$</option>
+		<option>5000$</option>
+
+	</select>
+</div>	
+
+	<label for="service">les services recherché:</label>
+
+<br>
+
+
+<div class="col-25">
+	<div class="right-col">
+	<input type="checkbox" name="html" value="html">
+	<label for="html">html</label>
+	<br>
+	<input type="checkbox" name="php" value="php">
+	<label for="php">php</label>
+	<br>
+	<input type="checkbox" name="sap" value="sap">
+	<label for="sap">sap</label>
+	</div>
+	<div class="left-col">		
+	<input type="checkbox" name="java" value="java">
+	<label for="java">java</label>
+	<br>
+	<input type="checkbox" name="c++" value="c++">
+	<label for="c++">c++</label>
+	<br>
+	<input type="checkbox" name="design" value="design">
+	<label for="design">design</label>
+	</div>
+</div>
+<br style="clear:both">
+<br>
+<input type="submit" value="envoyer">
+<!--
+<fieldset>
+<legend>personalisation</legend>
+	<label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  
+</fieldset>-->
+
+</form>
+</div>
+</body>
+</html>

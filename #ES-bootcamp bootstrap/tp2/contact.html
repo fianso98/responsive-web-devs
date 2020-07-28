@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+<!-- top titels -->
+		<div class="d-lg-flex justify-content-around align-items-baseline  bg-success text-white text-center h-100 ">
+			<h1 >Répertoire <span class="text-dark">des développeurs</span>
+			</h1>
+			<h3>Trouver un développeur <span class="text-dark">Maintenant</span></h3>
+
+		</div>
+
+
+
+<!-- top menu -->
+	<!--humburger menu -->
+	<div class="pos-f-t d-lg-none">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+      <ul class="navbar-nav ">
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">Page d'acceuil </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">A Propos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">Developpeurs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">Contacter-Nous</a>
+      </li>
+    </ul>
+    </div>
+  </div>
+  <nav class="navbar navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+</div>
+	<!-- normal menu-->
+	<nav class="navbar navbar-expand-lg d-none d-lg-flex  bg-dark ">
+
+
+	<!--brand-->
+  <a class="navbar-brand text-white" href="#">
+  	<img src="brand-logo.png" width="30" height="30" class="d-inline-block align-top" alt="" >
+    
+  Devlopers</a>
+
+	<!--collaps-->
+	<div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ">
+      <li class="nav-item">
+        <a class="nav-link text-white" href="main.html">Page d'acceuil </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="info.html">A Propos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="dev.html">Developpeurs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">Contacter-Nous</a>
+      </li>
+    </ul>
+  </div>
+
+
+
+  </nav>	
+
+<!--container-->
+<div class="container-fluid mt-3 ">
+<div class="row">
+  <div class="col-lg-1 ">
+<!--liens-->
+	
+
+	<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Les liens
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">SEO</a>
+    <a class="dropdown-item" href="#">PHP</a>
+    <a class="dropdown-item" href="#">developpers</a>
+    <a class="dropdown-item" href="#">Contacter nous</a>
+  </div>
+</div>
+	<!--<ul class="nav flex flex-column">
+	  <li class="nav-item">
+	    <a class="nav-link text-dark Disabled" href="#">Les liens</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="#">SEO</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="#">PHP</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link " href="#">developpers</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link " href="#">Contacter nous</a>
+	  </li>
+	</ul>-->
+	</div>
+	<div class="col-lg-1"></div>
+	<!--first text-->
+	<div class="col-lg-9 bg-light border rounded">
+	
+	<h3 class="text-primary">Contacter-nous</h3>
+	<p>svp,utiliser ce formulaire pour rentrer en contact avec nous</p>
+		<form>
+  <div class="form-group">
+    <label for="InputName">Nom complet:</label>
+    <input type="text" class="form-control" id="InputName">
+    
+  </div>
+
+  <div class="form-group">
+    <label for="InputEmail">Email address:</label>
+    <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp">
+    
+  </div>
+
+  <div class="form-group">
+    <label for="InputNumTel">Numero telephone:</label>
+    <input type="tel" class="form-control" id="InputNumTel">
+    
+  </div>
+
+  <p>Les horaires préferés pour coup de file:</p>
+  <div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="Matin" checked>
+  <label class="form-check-label" for="exampleRadios1">
+    Matin
+  </label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="Aprés-midi">
+  <label class="form-check-label" for="exampleRadios2">
+    Aprés-midi
+  </label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="Soir">
+  <label class="form-check-label" for="exampleRadios3">
+    Soir
+  </label>
+</div>
+
+<div class="form-group">
+    <label for="InputLieu">Lieu:</label>
+    <input type="text" class="form-control" id="InputLieu">
+    
+  </div>
+<fieldset>
+
+	<legend class="text-center">a propos de votre projet</legend>
+	<div class="row">
+   	 <div class="col-lg-6">
+		<div class="form-group">
+		<div class="row">
+		<div class="col-lg-3">
+	    <label for="budget">budget:</label>
+	    </div>
+	    <div class="col-lg-9">
+	    <input type="range" min="1000" max="10000" value="5000" class="form-control-range"  id="budget" onchange="setVal(this.value)">
+	    </div>
+	    </div>
+	  </div>
+	</div>
+	<div class="col-lg-6">
+		<div class="form-group">
+		     <input type="text" class="form-control" id="InputBudget">
+		    
+		  </div>
+	</div>
+	</div> 
+
+	<p>Les service recherché:</p>
+	<div class="row">
+	<div class="col-1">
+	<div class="form-check ">
+	  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+	  <label class="form-check-label" for="defaultCheck1">
+	    HTML
+	  </label>
+	</div>
+	</div>
+	<div class="col-1">
+	<div class="form-check ">
+	  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+	  <label class="form-check-label" for="defaultCheck1">
+	    SAP
+	  </label>
+	</div>
+	</div>
+	</div>
+	<div class="row">
+	<div class="col-1">
+	<div class="form-check ">
+	  <input class="form-check-input " type="checkbox" value="" id="defaultCheck1">
+	  <label class="form-check-label" for="defaultCheck1">
+	    PHP
+	  </label>
+	</div>
+	</div>
+	<div class="col-1">
+	<div class="form-check ">
+	  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+	  <label class="form-check-label" for="defaultCheck1">
+	    JAVA
+	  </label>
+	</div>
+	</div>
+	</div>
+	<div class="row">
+	<div class="col-1">
+
+	<div class="form-check ">
+	  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+	  <label class="form-check-label" for="defaultCheck1">
+	    C++
+	  </label>
+	</div>
+	</div>
+	<div class="col-1">
+
+	<div class="form-check ">
+	  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+	  <label class="form-check-label" for="defaultCheck1">
+	    DESIGN
+	  </label>
+	</div>
+	</div>
+	</div>
+
+
+	<div class="form-group">
+    <label for="InputSite">Site Web actuel:</label>
+    <input type="text" class="form-control" id="InputSite">
+    
+  </div>
+
+  <div class="form-group">
+    <label for="InputDate">Date de début:</label>
+    <input type="Date" class="form-control" id="InputDate">
+    
+  </div>
+  <div class="form-group">
+    <label for="InputColor">Couleur de la page principale:</label>
+    <input type="color" class="form-control" id="InputColor">
+    
+  </div>
+
+</fieldset>
+
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">check this if you have read <a href="">our terms</a> </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+    </div>
+
+				
+					
+	</div>
+</div>
+	
+
+
+ 
+
+<script type="text/javascript">
+	function setVal(){
+		var x = document.getElementById("budget").value;
+		document.getElementById("InputBudget").value=x+" $";
+	}
+	</script>
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

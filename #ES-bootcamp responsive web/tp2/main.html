@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.flex-container{
+			height: 600px;
+			display: flex;
+			flex-direction: column;
+			background-color: red;
+			flex-wrap: wrap;
+			/*justify-content: space-around;/*axe principale*/
+			/*align-items: baseline;axe secondaire*/
+			/*align-content: stretch;*/
+
+		}
+		
+		.same{
+			display: flex;
+			flex-direction: row;
+
+			background-color: white;
+			margin-bottom: 15px;
+
+		}
+		.same > div{
+			text-align: center;
+			flex-grow: 1; 
+			
+		}
+		.un{
+			display: flex;
+			flex-direction: row;
+
+			background-color: white;
+			margin-bottom: 15px;
+
+
+		}
+		.un > div{
+			text-align: center;
+			flex-grow: 1; 
+		}
+		.un .espace{
+			flex-grow: 2;
+		}
+		
+	</style>
+</head>
+<body>
+<div class="flex-container">
+	<div class="same">
+	<div >phrase</div>
+	<div >phrase</div>
+	
+	</div>
+	<div class="same">
+	<div >phrase</div>
+	<div >phrase</div>
+	<div >phrase</div>
+	<div >phrase</div>
+	</div>
+	<div class="same">
+	<div >phrase</div>
+	<div >phrase</div>
+	<div >phrase</div>
+	<div >phrase</div>
+	<div >phrase</div>
+	<div >phrase</div>
+	</div>
+	<div class="un">
+	<div class="espace" >phrase</div>
+	<div >phrase</div>
+	<div >phrase</div>
+	</div>
+	<div class="un">
+	<div >phrase</div>
+	<div class="espace">phrase</div>
+	<div >phrase</div>
+	</div>
+	
+	
+</div>
+</body>
+</html>

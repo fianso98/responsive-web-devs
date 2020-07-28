@@ -1,0 +1,362 @@
+body{
+	margin:0;
+	padding-left: 8px;
+	padding-right: 8px;
+
+	background-color: #385ec7;
+
+}
+/*
+.all-site{
+	
+	height: fit-content;
+	
+}*/
+
+
+/* -----------LE TITRE------------*/
+
+.top-site-titre {
+	background-color: #001652;
+	color: lightblue;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+
+}
+.white-text{
+	color: white;
+	
+	
+}
+
+
+.big-title{
+  	padding-top: 20px;
+	float: center;
+	
+	
+
+}
+.small-title{
+	
+	float: center;
+
+	
+
+	
+}
+
+/* -----------LE MENU------------*/
+
+.top-site-menu{
+	
+background-color: blue;
+color: white;
+height: 60px;
+clear: both;
+
+  
+}
+
+
+.top-site-menu .menu-btn:checked ~ .menu ul {
+  max-height: 240px;
+  
+  left: 0;
+  
+
+}
+
+.top-site-menu .menu-btn:checked ~ .menu-icon .nav-icon {
+  background: transparent;
+}
+
+.top-site-menu .menu-btn:checked ~ .menu-icon .nav-icon:before {
+  transform: rotate(-45deg);
+  top:0;
+}
+
+.top-site-menu .menu-btn:checked ~ .menu-icon .nav-icon:after {
+  transform: rotate(45deg);
+  top:0;
+}
+
+
+.menu ul{
+	clear: both;
+	margin: 0;
+  padding: 0;
+   list-style: none;
+  overflow: hidden;
+  background-color: #fff;
+  max-height: 0;
+  position: relative;
+  transition: max-height .2s ease-out;
+}
+ .menu li a {
+  display: block;
+  padding: 20px 20px;
+  
+  text-decoration: none;
+}
+.menu li a:hover{
+  background-color: #f4f4f4;
+  
+}
+
+
+.top-site-menu .menu-icon {
+  cursor: pointer;
+  float: left;
+  padding: 28px 20px;
+  position: relative;
+  
+}
+.top-site-menu .menu-icon .nav-icon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+.top-site-menu .menu-icon .nav-icon:before,
+.top-site-menu .menu-icon .nav-icon:after {
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+.top-site-menu .menu-icon .nav-icon:before {
+  top: 5px;
+}
+
+.top-site-menu .menu-icon .nav-icon:after {
+  top: -5px;
+}
+
+
+.top-site-menu .menu-btn {
+  display: none;
+}
+/*---------------------LE CONTENU---------------------*/
+.contenu{
+	margin-bottom: 50px;
+}
+/*---------------------LE CONTENU LIEN---------------------*/
+.contenu .liens{
+	width: 100%;
+	background-color: white;
+	margin-top: 9px;
+
+	padding-top: 9px;
+	padding-bottom: 9px;
+	border-radius: 14px;
+	
+}
+.contenu .liens ul {
+list-style: none;
+padding-left: 15px;
+padding-right: 15px;
+}
+.contenu .liens ul li{
+margin-top: 15px;
+margin-bottom: 15px;
+display: inline;
+}
+						/*first-child use*/
+.contenu .liens ul li:first-child{
+	font-weight: bold;
+
+}
+/*---------------------LE CONTENU DROITE---------------------*/
+.contenu .right-contenu{
+	width: 100%;
+	
+	margin-right: 0;
+	float: left;
+
+
+}
+/*---------------------LE CONTENU DROIT TOP---------------------*/
+.contenu .right-contenu .top-contenu{
+	border: 5px solid black;
+	border-radius: 14px;
+	margin-top: 9px;
+	overflow: auto;
+	background-color: white;
+	
+}
+.contenu .right-contenu .top-contenu .left-p{
+	padding-left: 10px;
+
+	
+}
+.contenu .right-contenu .top-contenu .right-img{
+	
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+	
+	
+}
+.contenu .right-contenu .top-contenu {
+	clear: both;
+}
+.contenu .right-contenu .top-contenu .a-propos{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.contenu .right-contenu .top-contenu .a-propos .aero-blue{
+	color: blue;
+}
+/*---------------------LE CONTENU Forum---------------------*/
+.contenu .right-contenu .top-contenu .forum{
+	padding-left: 30px;
+}
+.contenu .right-contenu .top-contenu .forum .col-25 {
+  float: left;
+  width: 30%;
+  margin-top: 6px; 
+  /*margin-right: -20px;*/
+}
+
+.contenu .right-contenu .top-contenu .forum .col-75 {
+  float: left;
+  width: 70%;
+  margin-top: 6px;
+}
+.contenu .right-contenu .top-contenu .forum .col-75 input[type="text"]{
+	width:200px;
+}
+.contenu .right-contenu .top-contenu .forum .col-75 input[type="email"]{
+	width:200px;
+}
+.contenu .right-contenu .top-contenu .forum .col-75 input[type="tel"]{
+	width:200px;
+}
+legend{
+	text-align: center;
+}
+
+.contenu .right-contenu .top-contenu .forum .col-25 .right-col{
+  width: 50%;
+  margin-top: 6px;
+  float: left;
+  
+}
+.contenu .right-contenu .top-contenu .forum .col-25 .left-col{
+	width: 50%;
+  margin-top: 6px;
+  float: left;
+}
+.contenu .right-contenu .top-contenu .forum{
+	margin-bottom: 50px;
+}
+
+/*---------------------LE CONTENU DROIT BOTTOM---------------------*/
+
+.contenu .right-contenu .bottom-contenu {
+	border: 5px solid black;
+	border-radius: 14px;
+	margin-top: 15px;
+	overflow: auto;
+	background-color: white;
+}
+.contenu .right-contenu .bottom-contenu h5{
+	padding-left: 20px;
+}
+.contenu .right-contenu .bottom-contenu ul{
+	margin-top:  0;
+	margin-bottom: 40px;
+	list-style: none;
+}
+.contenu .right-contenu .bottom-contenu .dev-parisien{
+	width: 24%;
+	float: left;
+}
+.contenu .right-contenu .bottom-contenu .dev-parisien-r{
+	float: right;
+	width: 24%
+}
+.contenu .right-contenu .bottom-contenu .tablaux h5{
+	color: blue;
+	padding-left: 30px;
+	font-size: 20px;
+}
+.contenu .right-contenu .bottom-contenu .tablaux table{
+	width: 35%;
+	padding-left: 30px;
+
+}
+.contenu .right-contenu .bottom-contenu .tablaux table td{
+	text-align: center;
+	border-bottom: 2px dashed black; 
+
+}
+.contenu .right-contenu .bottom-contenu .tablaux table th{
+text-align: center;
+	border-bottom: 2px dashed black; 
+}
+.contenu .right-contenu .bottom-contenu .tablaux  .tab2{
+	padding-bottom: 50px;
+}
+
+/*--------------------Footer---------------------*/
+footer {
+	bottom: 0;
+   text-align: center;
+  padding: 3px;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+}
+/*--------------------NEWS BAR---------------------*/
+
+.news-box {
+  position: relative; /* this one i changed*/
+  bottom: 0;
+    left: 0;
+  width: 100%;
+  overflow: hidden; /* bach maybanch le contenu adroit et a gauche*/
+  height: 4rem;
+  background-color: #e41b17;
+  box-sizing: content-box;
+}
+
+.news-box .news {
+  display: inline-block;
+  height: 4rem;
+  line-height: 4rem;
+  white-space: nowrap;
+  padding-right: 100%;
+  box-sizing: content-box;
+  
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: ticker;
+  animation-duration: 30s;
+}
+.news-box .news-item {
+  display: inline-block;
+  padding: 0 2rem;
+  font-size: 2rem;
+  color: white;
+}
+@keyframes ticker {
+  0% {
+    
+    transform: translate3d(0, 0, 0);/*it moves (x y z)*/
+    visibility: visible;
+  }
+  100% {
+    
+    transform: translate3d(-100%, 0, 0);
+  }
+}

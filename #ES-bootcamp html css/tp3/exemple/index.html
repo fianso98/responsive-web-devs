@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+	
+	.div-transition div{
+		width:100px;
+		height: 100px;
+		background: red;
+		transition: width 2s,height 2s,transform 2s ,background 5s;
+		transition-delay: 1s;
+		margin-bottom: 5px; 
+	}
+	/*
+	#div1 {transition-timing-function: linear;}
+	#div2 {transition-timing-function: ease;}
+	#div3 {transition-timing-function: ease-in;}
+	#div4 {transition-timing-function: ease-out;}
+	#div5 {transition-timing-function: ease-in-out;}
+	*/
+	.div-transition div:hover{
+		width: 300px;
+		height: 50px;
+		background: blue;
+		transform: rotate(180deg);
+		
+
+	}
+	.div-animation div{
+		width: 100px;
+		height: 100px;
+		background-color: red;
+		animation-name: exemple;
+		animation-duration: 6s;
+		animation-delay: 3s;
+		/*
+		animation-iteration-count: infinite;
+		*/
+		position: relative;
+		animation-fill-mode: forwards;
+
+
+	}
+	/*
+	#div1 {animation-timing-function: linear;}
+	#div2 {animation-timing-function: ease;}
+	#div3 {animation-timing-function: ease-in;}
+	#div4 {animation-timing-function: ease-out;}
+	#div5 {animation-timing-function: ease-in-out;}
+	*/
+	@keyframes exemple{
+		/* from{background-color:red;}to{background-color:blue;}*/
+		0%{
+			background-color: green;
+			left: 0px;
+			top: 0px;
+			
+		}100%{
+			background-color: blue;
+			left: 800px;
+			top: 0px;
+		}
+	}
+</style>
+	<title></title>
+</head>
+<body>
+<!--
+<div class="div-transition">
+	<div id="div1"></div>
+	<div id="div2"></div>
+	<div id="div3"></div>
+	<div id="div4"></div>
+	<div id="div5"></div>
+</div>
+-->
+<div class="div-animation">
+	<div></div>
+	<div id="div1"></div>
+	<div id="div2"></div>
+	<div id="div3"></div>
+	<div id="div4"></div>
+	<div id="div5"></div>
+</div>
+
+
+
+</body>
+</html>

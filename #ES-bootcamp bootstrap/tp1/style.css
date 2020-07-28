@@ -1,0 +1,25 @@
+*{
+	background-color: red;
+}
+html{
+	font-size: 30px;
+}
+h1{
+	font-size: 10mm;
+	color: white;
+}
+div{
+	font-size: 30px;
+}
+span{
+	font-size: 2em;
+}
+.rem{
+	font-size: 2rem;
+}
+.vw{
+	font-size: 20vw;
+}
+.vh{
+	font-size: 20vh;
+}

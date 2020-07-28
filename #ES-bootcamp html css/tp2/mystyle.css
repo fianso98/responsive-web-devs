@@ -1,0 +1,57 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	background-color: black;
+	color: white;
+	margin: 0;
+  padding-left: 12px;
+}
+.formulaire{
+	margin: 0;
+	padding: 0 12px 12px 12px;
+	background-color: blue;
+	color: white;
+	display: inline-block;
+	height: 100vh;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px; 
+  /*margin-right: -20px;*/
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+.right-col{
+  width: 50%;
+  margin-top: 6px;
+  float: left;
+  margin-right: -90px;
+}
+.left-col{
+	width: 50%;
+  margin-top: 6px;
+  float: left;
+}
+
+/*
+.col-20 {
+  
+  width: 20%;
+  margin-top: 6px;
+  display: inline-block;
+}
+.col-50 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  margin-right: -40px;
+}*/
+
