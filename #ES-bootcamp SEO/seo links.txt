@@ -1,0 +1,21 @@
+https://keywordtool.io/fr
+https://soovle.com/
+https://trends.google.fr/trends/
+https://kwfinder.com/
+
+//best site 
+1. https://soovle.com/
+2. https://app.neilpatel.com/
+3. https://trends.google.fr/trends/
+
+//implementation des mot cle
+nom de domaine
+les titres des pages 
+url
+1ere paragraph
+meta(titre , discription)
+image description
+
+//page speed
+https://developers.google.com/speed/pagespeed/insights/?hl=fr
+https://www.webpagetest.org/

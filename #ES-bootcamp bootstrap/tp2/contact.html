@@ -9,6 +9,7 @@
 		<div class="d-lg-flex justify-content-around align-items-baseline  bg-success text-white text-center h-100 ">
 			<h1 >Répertoire <span class="text-dark">des développeurs</span>
 			</h1>
+			<img src="brand-logo.png" width="50" height="50" class="align-self-end" alt="" >
 			<h3>Trouver un développeur <span class="text-dark">Maintenant</span></h3>
 
 		</div>
@@ -77,24 +78,14 @@
 <!--container-->
 <div class="container-fluid mt-3 ">
 <div class="row">
-  <div class="col-lg-1 ">
+  <div class="col-lg-2 border border-primary ml-3 mb-3">
 <!--liens-->
 	
 
-	<div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Les liens
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">SEO</a>
-    <a class="dropdown-item" href="#">PHP</a>
-    <a class="dropdown-item" href="#">developpers</a>
-    <a class="dropdown-item" href="#">Contacter nous</a>
-  </div>
-</div>
-	<!--<ul class="nav flex flex-column">
-	  <li class="nav-item">
-	    <a class="nav-link text-dark Disabled" href="#">Les liens</a>
+	
+	<ul class="nav flex flex-column">
+	  <li class="nav-item border-bottom border-secondary">
+	    <a class="nav-link text-dark Disabled font-weight-bold" href="#">Les liens</a>
 	  </li>
 	  <li class="nav-item">
 	    <a class="nav-link" href="#">SEO</a>
@@ -108,31 +99,47 @@
 	  <li class="nav-item">
 	    <a class="nav-link " href="#">Contacter nous</a>
 	  </li>
-	</ul>-->
+	</ul>
 	</div>
-	<div class="col-lg-1"></div>
+	
 	<!--first text-->
-	<div class="col-lg-9 bg-light border rounded">
+	<div class="col-lg-9 bg-light border rounded ml-3 mb-3 p-3">
 	
 	<h3 class="text-primary">Contacter-nous</h3>
 	<p>svp,utiliser ce formulaire pour rentrer en contact avec nous</p>
+
 		<form>
   <div class="form-group">
+  	<div class="row">
+  		<div class="col-lg-2">
     <label for="InputName">Nom complet:</label>
+	    </div>
+	    <div class="col-lg-6">
     <input type="text" class="form-control" id="InputName">
-    
+    	</div>
   </div>
-
+  </div>
   <div class="form-group">
+  	<div class="row">
+  		<div class="col-lg-2">
     <label for="InputEmail">Email address:</label>
+    	</div>
+	    <div class="col-lg-6">
     <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp">
+    </div>
+  </div>
     
   </div>
 
   <div class="form-group">
+  	<div class="row">
+  		<div class="col-lg-2">
     <label for="InputNumTel">Numero telephone:</label>
+    </div>
+	    <div class="col-lg-6">
     <input type="tel" class="form-control" id="InputNumTel">
-    
+     </div>
+  </div>
   </div>
 
   <p>Les horaires préferés pour coup de file:</p>
@@ -156,11 +163,16 @@
 </div>
 
 <div class="form-group">
+<div class="row mt-3">
+  		<div class="col-lg-2">
     <label for="InputLieu">Lieu:</label>
+    </div>
+	    <div class="col-lg-6">
     <input type="text" class="form-control" id="InputLieu">
-    
+    </div>
+    </div>
   </div>
-<fieldset>
+<fieldset class="p-3 border border-secondary">
 
 	<legend class="text-center">a propos de votre projet</legend>
 	<div class="row">
@@ -176,17 +188,20 @@
 	    </div>
 	  </div>
 	</div>
-	<div class="col-lg-6">
+	</div>
+	<div class="row">
+		<div class="col-lg-6 col-sm-9">
 		<div class="form-group">
 		     <input type="text" class="form-control" id="InputBudget">
 		    
 		  </div>
+		  </div>
 	</div>
-	</div> 
+	 
 
 	<p>Les service recherché:</p>
 	<div class="row">
-	<div class="col-1">
+	<div class="col-lg-1 col-sm-3">
 	<div class="form-check ">
 	  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
 	  <label class="form-check-label" for="defaultCheck1">
@@ -194,7 +209,7 @@
 	  </label>
 	</div>
 	</div>
-	<div class="col-1">
+	<div class="col-lg-1 col-sm-3">
 	<div class="form-check ">
 	  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
 	  <label class="form-check-label" for="defaultCheck1">
@@ -204,7 +219,7 @@
 	</div>
 	</div>
 	<div class="row">
-	<div class="col-1">
+	<div class="col-lg-1 col-sm-3">
 	<div class="form-check ">
 	  <input class="form-check-input " type="checkbox" value="" id="defaultCheck1">
 	  <label class="form-check-label" for="defaultCheck1">
@@ -212,7 +227,7 @@
 	  </label>
 	</div>
 	</div>
-	<div class="col-1">
+	<div class="col-lg-1 col-sm-3">
 	<div class="form-check ">
 	  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
 	  <label class="form-check-label" for="defaultCheck1">
@@ -222,7 +237,7 @@
 	</div>
 	</div>
 	<div class="row">
-	<div class="col-1">
+	<div class="col-lg-1 col-sm-3">
 
 	<div class="form-check ">
 	  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
@@ -231,7 +246,7 @@
 	  </label>
 	</div>
 	</div>
-	<div class="col-1">
+	<div class="col-lg-1 col-sm-3">
 
 	<div class="form-check ">
 	  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
@@ -244,25 +259,41 @@
 
 
 	<div class="form-group">
+	<div class="row mt-3">
+  		<div class="col-lg-2">
     <label for="InputSite">Site Web actuel:</label>
+    </div>
+	    <div class="col-lg-6">
     <input type="text" class="form-control" id="InputSite">
-    
+    </div>
+    </div>
   </div>
 
   <div class="form-group">
+  	<div class="row">
+  		<div class="col-lg-2">
     <label for="InputDate">Date de début:</label>
+    </div>
+	    <div class="col-lg-6">
     <input type="Date" class="form-control" id="InputDate">
+    </div>
+    </div>
     
   </div>
   <div class="form-group">
+  <div class="row">
+  		<div class="col-lg-2">
     <label for="InputColor">Couleur de la page principale:</label>
+    </div>
+	    <div class="col-lg-6">
     <input type="color" class="form-control" id="InputColor">
-    
+    </div>
+    </div>
   </div>
 
 </fieldset>
 
-  <div class="form-group form-check">
+  <div class="form-group form-check mt-3">
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
     <label class="form-check-label" for="exampleCheck1">check this if you have read <a href="">our terms</a> </label>
   </div>
